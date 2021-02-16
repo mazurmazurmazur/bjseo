@@ -79,8 +79,8 @@ html {
 body,
 p {
   color: #000;
-  font: 400 1.2rem "Open Sans", sans-serif;
-  text-align: justify; /*justified*/
+  font: 400 1rem "Open Sans", sans-serif;
+  text-align: center; /*justified*/
 }
 
 .p-large {
@@ -1002,7 +1002,6 @@ input[type="checkbox"] {
 
 .cards-2 p {
   color: #000;
-  text-align: justify; /*justified*/
 }
 
 .cards-2 h3 {
@@ -1957,6 +1956,15 @@ a:hover.back-to-top {
 /*****************************/
 /*     21. Media Queries     */
 /*****************************/
+
+/* Min-width width 480px */
+@media (min-width: 480px) {
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+}
+
 /* Min-width width 768px */
 @media (min-width: 768px) {
   /* General Styles */
