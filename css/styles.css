@@ -80,7 +80,7 @@ body,
 p {
   color: #000;
   font: 400 1rem "Open Sans", sans-serif;
-  text-align: center; /*justified*/
+  text-align: justify; /*justified*/
 }
 
 .p-large {
