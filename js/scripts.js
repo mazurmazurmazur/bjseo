@@ -434,18 +434,3 @@ function moreButton(d, m, mb, arrow) {
     arrowRozwin.style.transform = "rotate(180deg)";
   }
 }
-
-/* let pielegnacja = document.querySelector(".pielegnacja");
-let apteka = document.querySelector(".apteka");
-let men = document.querySelector(".men");
-
-pielegnacja.onclick = redirectToStore(
-  "https://pollena.com.pl/99-codzienna_pielegnacja"
-);
-apteka.onclick = redirectToStore("https://pollena.com.pl/81-aptekaalergika");
-men.onclick = redirectToStore("https://pollena.com.pl/100-men");
-
-function redirectToStore(link) {
-  window.open(link);
-}
- */
